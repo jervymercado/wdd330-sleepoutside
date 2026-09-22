@@ -168,6 +168,33 @@ button {
   color: var(--dark-grey);
 }
 
+.categories {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.categories a {
+  text-decoration: none;
+  color: var(--dark-grey);
+  flex: 1 1 100px;
+  max-width: 150px;
+}
+
+.categories img {
+  width: 80px;
+  height: 80px;
+}
+
+.categories p {
+  margin-top: 0.5em;
+  font-size: var(--small-font);
+}
+
 /* Styles for product lists */
 .product-card {
   flex: 1 1 45%;
